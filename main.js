@@ -3,12 +3,11 @@ const sidebar = document.querySelector('.sidebar');
 const sidebarToggle = document.querySelector('.sidebar-toggle');
 console.log(sidebarToggle);
 
-sidebarToggle.addEventListener('click',
  
-() => {
+const toggleHamburgerMenu = () => {
   console.log('clicked');
   sidebar.classList.toggle('collapsed');
-});
+}
 
 addEventListener("resize", (event) => {});
 

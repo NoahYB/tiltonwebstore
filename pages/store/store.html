@@ -25,41 +25,54 @@ content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header class="main-header">
-        Tilton Bead Works
-        <div>
-            <img src="../../images/logo.webp" alt="Retro Logo" class="sidebar-logo"></div>
-    </header>
-
-    <main class="store-container container">
-        
-        <div class="sidebar">
-            <ul class="sidebar-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="pages/store/store.html">Store</a></li>
-                <li><a href="#">Contact</a></li>
+        <div class='logo-text' > Tilton Bead Works </div>
+        <div class="topbar">
+            <ul class="topbar-nav">
+                <li><a href="../../">Home</a></li>
+                <li><a href="../about/about.html">About</a></li>
+                <li><div>Store</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
             </ul>
         </div>
-
+        <div>
+            <!-- <img src="../../images/logo.webp" alt="Retro Logo" class="sidebar-logo"> --> </div>
+    </header>
+        
+    <a href="#" onclick="toggleHamburgerMenu()">
+        <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+          <rect x="15" y="20" width="20" height="5" fill="#333" rx="2"/>
+          <rect x="15" y="30" width="20" height="5" fill="#333" rx="2"/>
+          <rect x="15" y="40" width="20" height="5" fill="#333" rx="2"/>
+        </svg>
+    </a>
+    <div class="sidebar collapsed">
+        <ul class="sidebar-nav">
+            <li><a href="../../">Home</a></li>
+            <li><a href="../about/about.html">About</a></li>
+            <li><div>Store</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <main class="store-container container">
         <section class="product-category girly-border">
             <h2>Beaded Bracelets</h2>
             <div class="product-list">
                 <div class="product">
-                    <img class="store-item-img" src="https://lh3.googleusercontent.com/pw/ADCreHfkbQVyeWMsA8I9xVISpHTT75eBbKA_xorFD4XTZLzOphn9iqxuxSqq7Xj3rDyjVNNF01wCtgj55zVRTL-Rf5q2nAp-yRHS5e9BIFCLs2vFxPqXj906F2RDztm3bOjC7_44J8-5LRaZd6zgs52Bdh_BBAbOYeV9H3pFPI_I_1BcMqfkE2pWdouEYJF_oGrU_ijNKxoeG-wr3f8dgd6F-dXbFlh6sMx3bvGv9AN_xjWL4t7j0Ouwsze7-OnFigbEWJqCz66KCRZsNEVC3zp0Mnbdeb4kTE-EkodLzCJRejh64OK-j4x3doSGvV514_6Oo6RiSn8C968TElEBCXXhod7QRqxeB7-mErSPUgTKV3aYCF3_zwtTdcAgn_8ThquIwdxZ1TjGmNmcpiuedkUkDPMO2rmMjWJ3HGgCFRImuv-RTgggyKhgC5q8jV22fiIxm16LFInhoA3T_SwAKNmttpIO0ycUGN0mnFabYydv6Ih_GQJ692xPt19vMoosH1i0Ck0Iw1g0wgCHIsRA5sqel2YGyS5jCm8ZXj7LmSycLWZtt8a0W9n87vyjMro4i7vgmrNbDR5w8vOI4mSKuqbmug3eT67jtxCz8jBk3kM6kudlt0MXlYqdnnSOmJLPOeKWNB_TyEKXarP2V9Q46W6qalbPBZkj0AnOcmNwuYEwDe11D_Gvj_p3Mzp6ArgmQY_oPRdsLRWNR8DCXMTZYMeitcq68TNoEXQOTGbgeYj1Q3uZInykZFHqVIofa38NB6vmsW-M9s_10jm8uJ3WJzNzOTKiGkiBkHREOGpKnIQl_77jGovExiagqI2XyR0PHduXWZNIQpyYEgfIee07tzJRWXWGUce6VUOoc5OqBtMo8zG55YO8KPNmAKsYBNy7isNOJnA_i6GE1vINclZGyg1zvA=w695-h927-s-no-gm?authuser=0" alt="Serene Sunset">
+                    <img class="store-item-img" src="../../images/IMG_5923.jpg" alt="Serene Sunset">
                     <h4> Hot Pink Boot </h4>
                     <p> Dump the dead fish baby.</p>
                     <span class="price">$30</span>
                 </div>
 
                 <div class="product">
-                    <img class="store-item-img" src="https://lh3.googleusercontent.com/pw/ADCreHeEQ0nCTs_Au1pTH-koDmuyfbVrX0ZL0W_eFxL51c1tf8clS-u7j73uKV-XTPcoLKmZLgGb5YdxirBrP7FLLTBzv0rCWyjz0x15G6SwID7lUaP_-dFJ0-xV-OpsA0-mO87e8yaU5EBa1-QkcEAEOqrd=w722-h963-s-no-gm?authuser=0" alt="Enchanted Forest">
+                    <img class="store-item-img" src="../../images/IMG_5924.jpg" alt="Enchanted Forest">
                     <h3>Starry Eagle</h3>
                     <p>Immerse yourself in the magic of a star and eagle so cute!.</p>
                     <span class="price">$30</span>
                 </div>
 
                 <div class="product">
-                    <img class="store-item-img" src="https://lh3.googleusercontent.com/pw/ADCreHes1ILnAY8DmeM7RhbeeniLOkuyGqdmlxtBG4bExL6RHaqA4Zjqckw3YDPK-tMOCOV4xz46sAscAwYGRaJKthMf68xgC6Lb3YyN9bJX_K6KyV04VVxjFIRrYkNIgygEctDCLUcn-yUL-VsXzFDbZ-IlHVBWOreOoXctwTgzo6MmHVSv011NAStuVzmiYhT8D80rWn4EhISmNqMwKaiUxXtRWQhLOGEd41JZNhj8JvjUqmugH79OkXuwQNH3jqN5t_U7VSff1nSwLnH2uO8tcVVmZB9R61WdFMnSpe1zOSTAJtm6GRiSLq3qLIP8-UcjANL1Z-fsUlcVJfDKJLAxG-gCU28sd1uWRZwSwvz0aBBy22MSKtRkuj796VQVasyW_kpXFi8azUpXP7iHj73VaxzxPvbPjsliGS8ToJZpXKE9a0LtGO3BNwUIQNivPZFg-Oa6toD-YJ_lPRShQZQEJYdMotnRDs31WFJUVNDtJNLJ9pdfjZTXosZJ_h42r73gIXlbv2tcd7S2qJxFVqlf23MBM_HxI1fTOc0xyNuvr2DJSK0ca_VBIUop4dKfZZvU_PnQBj2GXH8DUumZArNjGM-kd5Ph3Ue8o69Wg6pPQN2YexXxIxfkHnTJGrV9zAkzI8Zd3UZMVRY685kEYhdodEXI5ZlkcustnMWnwEZNb0o-5hCcp4MuWqTGG6iEcY2OeHvcnNkwRsm4_VXtvp1nh7mR4qf-Bus5gG9MdGkt3uxItaKkey0MMrPZDc7owUhBZ-P12T8A7XhBncYVmwPNd3tpnQK2ITJz4zJPgEy0Q2EU5e0kKroYWeqD6QBs0vzvS_fB8m95dEzpfpGBwA2zA3KuIi0FGlnln_-NeVWmyD_7fmrHsx_i6tbPvf2jX1K4SqiF6L952rChk5JUVPgQag=w695-h927-s-no-gm?authuser=0" alt="Cosmic Dance">
+                    <img class="store-item-img" src="../../images/IMG_5922.jpg" alt="Cosmic Dance">
                     <h3>Lady Bug Chile</h3>
                     <p>Experience the awe-inspiring beauty of ladybugs!.</p>
                     <span class="price">$30</span>
@@ -71,31 +84,45 @@ content="width=device-width, initial-scale=1.0">
             <h2>Handmade Paper Cut Cards</h2>
             <div class="product-list">
                 <div class="product">
-                    <img class="store-item-img" src="https://lh3.googleusercontent.com/pw/ADCreHcnlsPAbamn1N-XMpEYKW01AWjtOvVTOYkXvYOaNm-weTudd2ZYB_aFcKzkXFDmmlDxP34o6Xia1mTfDVWPk4C7CUqqc6RIhBVeuAmGSp2DfVPSYSh-3TffE0s-qmecnz-R3BRJGFcyR4d-Zly1Uc3o699tdNUqmk1nzz91DxrdZ4KV5Gjevmda1o5yZSup1eI8IuMxtskYxyuvJHZpb-AdnlWeuHu-g-BS4dG0sm7dUCG1whXrmDnNyyY8t0VFTnvZtJoypkJjNrf3G9ZQv4fuuXl_qv1FPpXop9SyOFw1m2GttMNr703RiX-QYn9X4xg3bPbxIQuYwO-essMHrBitPDSKuCUASxWC92cezr9XJcuypZaIzWbeLW487gtlygfRL9ZtVMeD82mwbIzCT1pzcck4pblg7ujnoLEkwSHNL1yWbP0S-gHtn1Kr-SC0niIiumEYJhRME3yIP_X-Amcdqvj7fpEhxeKExXUqiW4D5W1SSU8DqWeqTLzCmXuCS2AXOzUPaDRf6joPJyP_loby4-FbbCwvt5n2o09b_o4BIT49vJrEIr3onocUs333xXplZd-f8HX82_4wCDbLF2KRSsv0wO6mya2vSi8vn32fy--5in7-VizwlzQoJGEwgALfIPZHj06G2EMxPnyhLJ_FR-nWavwXdwrCf1pUhAQyyvM08TxN_C-lKXW943yWsV2kfTkix03yUzcZSjzFVExykkOCBiT6-zMp1xwZoobshUq_eWOc9-VhkzTQHW2CZLhwd3WvSnjrT9mfIdunr1EHypDbsM8b4h46zIMOaHGSe6xl7ANU8RhscBPwxkJFja6l780AWSTeC_-ClKXOAzvl3gORxuLKfwgpb_nqFluRV_IrgGhTVWDdQzgNzufSfVwrFZkNuzAuTW8HO-uMQw=w1173-h880-s-no-gm?authuser=0" alt="Enchanted Forest">
+                    <img class="store-item-img" src="../../images/IMG_5927.jpg" alt="Enchanted Forest">
                     <h3>Dove in orange tree</h3>
                     <p>Admire the elegance and beauty of this detailed portrait.</p>
                     <span class="price">$10</span>
                 </div>
 
                 <div class="product">
-                    <img class="store-item-img" src="https://lh3.googleusercontent.com/pw/ADCreHf7J-dlTPVcuQSNmmeU2dYYoCQjcgYPIqC1NlTcX1jLJey8mraU7wr3HTTcHvXJFOzcdCfmdkRLt8AphTUEYtJNzZujDMO0Kkg6uwq5-44zHoM5wN7nQDnFfmOa-2iBdKyByl0SYG0nyf_YHM53o3LY07ArWprO6WBcIiMtbSBQsv3cBUzFBwlCJujgoGRQbqFJ1SAsO9xfY9fNuhL87tavDN67fV89I62USqYtclPmsqn6VxKv90UUECat2NEXgcClmm9M3sooASMcTTLJ5KHsIznDFFQK_OJUGk5R1pGpPp-2tJO1wgc0NhaRLm07dj1XkJduuAXwohNQ1YzDDbjaQA01KLLBOhTKc21bmPWBTvI9oJKPhuYH2K3HaxbaSXxjhpl_2WC4tR10h5sYyy3U-XzUgYxnCO2ee9BzQ1AEOVe9gZODiPeB60DdRy-b9aGTmJMt5-5QlUV2E7jBuaZ0pcE1ziLDZvPD2F5VNFY952814gJ1WLYqs-WDivtnvEUIHelGyrvgi9aaG5TiveUQ7uHFA6pzUbdZXsycgT-tQ7Rh-d07X7yye6_-93cIpIrLHzx3-MIi7nWAC-qNGiAq785j9KKeiBaEbZDV6aNu570hJMIMskhHsNlJA8SG3X5g7J_UStnIebgvlQWS7gjV15pe53BCgOxrow-QYWMu1GqOGelQ79L2UPkiFduyIDNoW84bbZt2ZYhbjuDZ4I5mmJIrEu3P1o4fXuqOGDTeuT8aR6BYXSjj32oTYG2_6xZ2KHDjhJcwnpHxna25ZXLt4zXKhJ0YKzytr1ncoQxSYS3dEge-h0tW3XW8jj3rTxPgEGVd5gT75wQGgPYlG8QqjFFlITrbmrAGuwWN4GR0HF18hGmhty8zKanxou9lT9nZrWPB7DICKMYDsY-MzA=w1173-h880-s-no-gm?authuser=0" alt="Enchanted Forest">
+                    <img class="store-item-img" src="../../images/IMG_5926.jpg" alt="Enchanted Forest">
                     <h3>Pigeon on rock</h3>
                     <p>Capture the vibrant energy of a pigeon in this intricate paper cut.</p>
                     <span class="price">$15</span>
                 </div>
 
                 <div class="product">
-                    <img class="store-item-img" src="https://lh3.googleusercontent.com/pw/ADCreHc2TjhOA7dEkG0FnvkXE2dhJkfjTNQfgI1p_LUyaXY8aXQbIqjNM0WSBcT9HCRdPcoO0nyIkNF8SHsMG-uDVIbdF4gztJq-8dT_iQq4WvOTh8j5jS8PBB33RV1LkCZkrzODYx-G_o6XwwAnAJMqMPGND2RKg0kQeomOfQBoST04A-oqXlSI06qax5BILkPQyUu9rTWljNjMo850HEDA_A5qT-5JjrtMT2FYEIA-fAvtINUlSFKhnTHXlbcL6QbtQ3y3dNUZc3PYbY2PRYFcPhWOOKRiUGcj7U_Zgg6-eK5yrm0O6YJblcL3CXUreHyXWtPwsUeoAYoE4kNl3Rh1BHgsS2-iQXeGWdsdNejt2eC1rkc52KSDdzRVVhTRC0N5XAtlcv0aJpuF2hiJCdgv5ohNDlBEYi48mquYOsQnv6v3CvX7JmUwbfL-bB7cQk5vwsIM-zwtWINex5UUlUF42FeQkRvB19GPEUOjxrd6fYWmrtZc8ZDilcKrISyszgl9iCy-VDHW8y_hXdh5b-6zg1xDo28SPsNIS41hPxdUJ_GC1ZZrZ5SSbo2nVbNYwF4l-aThhpF2fWiDFeLIjBxTf1n57-2b993_T_luDdvSy8D_BAN_RuACUjTFV6UwBVWp6H9jlkOChMBBVLiFKnDzIvRmbCZJros_u6qot_9oDaA-m6po5JoXAybGQ60vqsKMFX6cMGJr-FWZdf8WPgZqCPwqmfghy_megsLGN_kzipwD45y0hX8KzFp3xOUIv_Jxx7nSesWJRHwSyIWBjowsRmEICgWa99o_7csr3Qqc6UH5iglyrhN7HgoKzmuHPhHic4sQVcoRSUW1xlOPwfGvGci5EldRiIM4zRpzYdYsVTwsrWcVHAxyaKjDGitUsAHYCbAZCM8IoJZ8Cz1Fy2xHkQ=w1173-h880-s-no-gm?authuser=0" alt="Enchanted Forest">
+                    <img class="store-item-img" src="../../images/IMG_5925.jpg" alt="Enchanted Forest">
                     <h3>Bird on willow tree</h3>
                     <p>Experience the wonder of nature with this lifelike drawing of a majestic animal.</p>
                     <span class="price">$10</span>
                 </div>
             </div>
         </section>
+
+        <section class="product-category">
+            <h2>Framed Photos Local Pickup Only</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img class="store-item-img" src="../../images/IMG_5728.jpg" alt="Enchanted Forest">
+                    <h3>One of a kind large photograph in handmade frame</h3>
+                    <p>5ft x 3ft</p>
+                    <span class="price">$5000</span>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer class="main-footer">
         <p>&copy; 2023 BrintonLiteraryAgency</p>
     </footer>
+    <script src="../../main.js" ></script>
 </body>
 </html>
