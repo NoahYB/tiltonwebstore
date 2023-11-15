@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    padding-top: 150px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sidebar-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 91px;
+    object-fit: cover;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    margin-bottom: 10px;
+}
+
+.sidebar-nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar-nav a:hover {
+    background-color: #ccc;
+}
+
+.main-content {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f2f2f2;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-size: xxx-large;
+}
+
+.main-section {
+    margin-bottom: 20px;
+}
+
+.main-image {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.main-footer {
+    text-align: center;
+}
+
+.sidebar {
+    width: 100px;
+    height: 100%;
+    background-color: #f2f2f2;
+    position: fixed;
+    top: 140px;;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    transition: width 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    
+  }
+  
+  
+  .sidebar.collapsed {
+    width: 0px;
+  }
+  
+  .sidebar-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    height:15px;
+    width:15px;
+    cursor: pointer;
+    background-color: black;
+  }
+
+  .sidebar-toggle.collapsed {
+    width: 10px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .sidebar {
+        width: 0px;
+    }
+    .sidebar-logo {
+        width: 0px;
+    }
+  }
+  header {
+    background-color: #ffebcd;
+    padding: 20px;
+    text-align: center;
+}
+
+ .girly-border {
+    border: 1px solid #f4a460;
+    border-style: dashed;
+    border-radius: 10px;
+    background-color: #ffedf9;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
