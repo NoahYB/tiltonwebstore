@@ -46,7 +46,7 @@ main {
     justify-content: space-between;
     width: 100%;
     z-index: 3;
-}
+} 
 
 .product-category {
     margin: auto;
@@ -60,6 +60,7 @@ main {
 }
 
 .product-category h2 {
+    text-decoration: underline;
     font-size: 24px;
     color: #333;
     text-align: center;
@@ -78,7 +79,7 @@ main {
 }
 
 .product img {
-    width: 200px;
+    width: 40%;
     height: auto;
     margin: 0 auto;
     display: block;
