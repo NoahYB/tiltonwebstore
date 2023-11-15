@@ -189,8 +189,8 @@ body {
 
   #hamburger-icon {
     z-index: 6;
-    position: absolute;
-    top: 23px;
+    position: fixed;
+    top: 13px;
     left: 35px;
     width: 0px;
     height: 45px;

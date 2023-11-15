@@ -5,7 +5,6 @@ console.log(sidebarToggle);
 
  
 const toggleHamburgerMenu = () => {
-  console.log('clicked');
   sidebar.classList.toggle('collapsed');
 }
 
